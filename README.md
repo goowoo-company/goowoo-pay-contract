@@ -70,7 +70,6 @@ const router = await store.router(); // PaymentRouter address
 - PlatformAuthority: `0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e`
 - PaymentRouter: `0xa33acA5a4135a9eDfc39BC76c4E9d5DF78c47299`
 - StoreFactory: `0x78351dEF0790cCAf430C02382625dE4F318d9170`
-- Sample Store (seller `0x94fce286dbf5d81816d234537b0550e353a927ad`): `0x0079523eab375c7433469D0Aa1043bC1F512571e`
 
 Explorer: [Kaiascan](https://kaiascan.io/)  ·  RPC: `https://public-en.node.kaia.io`
 
@@ -567,7 +566,6 @@ const router = await store.router(); // PaymentRouter 주소
 - PlatformAuthority: `0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e`
 - PaymentRouter: `0xa33acA5a4135a9eDfc39BC76c4E9d5DF78c47299`
 - StoreFactory: `0x78351dEF0790cCAf430C02382625dE4F318d9170`
-- 샘플 Store(판매자 `0x94fce286dbf5d81816d234537b0550e353a927ad`): `0x0079523eab375c7433469D0Aa1043bC1F512571e`
 
 탐색기: [Kaiascan](https://kaiascan.io/)  ·  RPC: `https://public-en.node.kaia.io`
 
