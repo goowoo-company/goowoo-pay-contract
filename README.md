@@ -208,10 +208,10 @@ SELLER_ADDRESS=
 |----------|-------------|----------|---------|
 | `PRIVATE_KEY` | Deployment private key | ✅ | - |
 | `USDT_ADDRESS` | Kaia USDT contract address | ✅ | `0xd077a400968890eacc75cdc901f0356c943e4fdb` |
-| `PLATFORM_WALLET` | Platform operation wallet | ✅ | `0x66cf55c6cab5e99cdd78f097c0528dd7f6259ef5` |
+| `PLATFORM_WALLET` | Platform operation wallet | ✅ | - |
 | `KAIASCAN_API_KEY` | Kaiascan API key | ❌ | - |
 | `DEFAULT_FEE_BPS` | Default fee rate | ❌ | `100` (1%) |
-| `SELLER_ADDRESS` | Test seller address | ❌ | `0x94fce286dbf5d81816d234537b0550e353a927ad` |
+| `SELLER_ADDRESS` | Test seller address | ❌ | - |
 
 ### 5. Network Configuration
 
@@ -276,13 +276,6 @@ await router.setFactory(factoryAddress);
 ```bash
 # Execute verification commands provided by deployment script
 npx hardhat verify --network mainnet [contractAddress] [constructorParameters]
-```
-
-### Manual Verification Example (Mainnet)
-```bash
-npx hardhat verify --network mainnet 0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e "0x66CF55c6cAB5e99Cdd78F097C0528dD7F6259eF5"
-npx hardhat verify --network mainnet 0xa33acA5a4135a9eDfc39BC76c4E9d5DF78c47299 "0xd077a400968890eacc75cdc901f0356c943e4fdb" "0x66cf55c6cab5e99cdd78f097c0528dd7f6259ef5"
-npx hardhat verify --network mainnet 0x78351dEF0790cCAf430C02382625dE4F318d9170 "0x66CF55c6cAB5e99Cdd78F097C0528dD7F6259eF5" "0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e"
 ```
 
 ## Testing
@@ -712,10 +705,10 @@ SELLER_ADDRESS=
 |--------|------|------|--------|
 | `PRIVATE_KEY` | 배포용 개인키 | ✅ | - |
 | `USDT_ADDRESS` | Kaia USDT 컨트랙트 주소 | ✅ | `0xd077a400968890eacc75cdc901f0356c943e4fdb` |
-| `PLATFORM_WALLET` | 플랫폼 운영 지갑 | ✅ | `0x66cf55c6cab5e99cdd78f097c0528dd7f6259ef5` |
+| `PLATFORM_WALLET` | 플랫폼 운영 지갑 | ✅ | - |
 | `KAIASCAN_API_KEY` | Kaiascan API 키 | ❌ | - |
 | `DEFAULT_FEE_BPS` | 기본 수수료 비율 | ❌ | `100` (1%) |
-| `SELLER_ADDRESS` | 테스트용 판매자 주소 | ❌ | `0x94fce286dbf5d81816d234537b0550e353a927ad` |
+| `SELLER_ADDRESS` | 테스트용 판매자 주소 | ❌ | - |
 
 ### 5. 네트워크 설정
 
@@ -780,13 +773,6 @@ await router.setFactory(factoryAddress);
 ```bash
 # 배포 스크립트가 제공하는 검증 명령어 실행
 npx hardhat verify --network mainnet [컨트랙트주소] [생성자파라미터들]
-```
-
-### 수동 검증 예시 (메인넷)
-```bash
-npx hardhat verify --network mainnet 0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e "0x66CF55c6cAB5e99Cdd78F097C0528dD7F6259eF5"
-npx hardhat verify --network mainnet 0xa33acA5a4135a9eDfc39BC76c4E9d5DF78c47299 "0xd077a400968890eacc75cdc901f0356c943e4fdb" "0x66cf55c6cab5e99cdd78f097c0528dd7f6259ef5"
-npx hardhat verify --network mainnet 0x78351dEF0790cCAf430C02382625dE4F318d9170 "0x66CF55c6cAB5e99Cdd78F097C0528dD7F6259eF5" "0xe696Fcd2661C9C3Cf7898b7b5ABbA36f3ff1f10e"
 ```
 
 ## 테스트
